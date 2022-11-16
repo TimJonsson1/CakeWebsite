@@ -1,0 +1,38 @@
+.gridBox{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+ 
+}
+
+.greenBorderLeft{
+
+    background-color: rgb(192, 255, 201);
+   
+    height: 950px;
+    grid-row: 1;
+    columns: 1;
+    
+    
+}
+
+.homePage{
+    display:table;
+    text-align:center;
+    background-color: rgb(160, 185, 198);
+    
+
+    grid-row: 1;
+    columns: 2;
+   
+
+}
+
+.greenBorderRight{
+    background-color: rgb(192, 255, 201);
+   
+
+    grid-row: 1;
+    columns: 3;
+    
+}
