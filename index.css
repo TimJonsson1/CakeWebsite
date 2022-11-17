@@ -1,3 +1,25 @@
+.border{
+    display: flex;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(93, 120, 102);
+    width:100%;
+    background-color: #a7e8aa;
+
+    
+}
+
+.btn{
+    background-color: #4CAF50; 
+    border-style: solid;
+    border: 5px;
+    border-color: #09590d;
+    color: rgb(255, 255, 255);
+    padding: 15px 125px;
+    text-align: center;
+    font-size: 16px;
+}
+
 .gridBox{
     display:grid;
     grid-template-columns: auto auto auto;
@@ -9,7 +31,7 @@
 
     background-color: rgb(192, 255, 201);
    
-    height: 950px;
+    height: 850px;
     grid-row: 1;
     columns: 1;
     
@@ -27,6 +49,8 @@
    
 
 }
+
+
 
 .greenBorderRight{
     background-color: rgb(192, 255, 201);
