@@ -1,0 +1,51 @@
+.cakeGrid{
+    display:grid;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(17, 52, 37);
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+.cakes{
+    display: table;
+    grid-row: 1;
+    columns: 2;
+}
+
+.cupCakes{
+    
+    display: grid,flex;
+    padding: 10px;
+    column-gap: 5px;
+   
+
+    
+}
+
+.weddingCakes{
+    display: grid,flex;
+    padding: 10px;
+    column-gap: 5px;
+}
+
+
+
+.greenBorderLeftproducts{
+
+    background-color: rgb(192, 255, 201);
+   
+    
+    grid-row: 1;
+    columns: 1;
+    
+    
+}
+
+.greenBorderRightproducts{
+    background-color: rgb(192, 255, 201);
+   
+
+    grid-row: 1;
+    columns: 3;
+    
+}
