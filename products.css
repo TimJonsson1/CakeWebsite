@@ -2,31 +2,108 @@
     display:grid;
     font-family: Arial, Helvetica, sans-serif;
     color:rgb(17, 52, 37);
-    grid-template-columns: auto auto auto;
+    
     text-align: center;
 }
 
 .cakes{
-    display: table;
+    display: grid,table;
     grid-row: 1;
-    columns: 2;
+    grid-column: 2;
 }
 
 .cupCakes{
     
-    display: grid,flex;
-    padding: 10px;
-    column-gap: 5px;
-   
+    display: grid;
+    
 
+}
+
+.cupcake1{
+    
+    grid-row: 1;
+    grid-column: 1;
     
 }
 
-.weddingCakes{
-    display: grid,flex;
-    padding: 10px;
-    column-gap: 5px;
+.cupcake2{
+    grid-row: 1;
+    grid-column: 2;
+    
 }
+
+.cupcake3{
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.cupcake4{
+    grid-row: 1;
+    grid-column: 4;
+}
+
+.cupcake5{
+    
+    grid-row: 2;
+    grid-column: 1;
+    
+}
+
+.cupcake6{
+    grid-row: 2;
+    grid-column: 2;
+    
+}
+
+.cupcake7{
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.cupcake8{
+    grid-row: 2;
+    grid-column: 4;
+}
+
+.weddingCakes{
+    display: grid;
+    
+    
+}
+
+.weddingcake1{
+    grid-row: 1;
+    grid-column: 1;
+}
+.weddingcake2{
+    grid-row: 1;
+    grid-column: 2;
+}
+.weddingcake3{
+    grid-row: 1;
+    grid-column: 3;
+}
+.weddingcake4{
+    grid-row: 1;
+    grid-column: 4;
+}
+.weddingcake5{
+    grid-row: 2;
+    grid-column: 1;
+}
+.weddingcake6{
+    grid-row: 2;
+    grid-column: 2;
+}
+.weddingcake7{
+    grid-row: 2;
+    grid-column: 3;
+}
+.weddingcake8{
+    grid-row: 2;
+    grid-column: 4;
+}
+
 
 
 
